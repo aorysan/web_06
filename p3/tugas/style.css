@@ -1,0 +1,64 @@
+    html, body{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ddd;
+        line-height: 1.65;
+    }
+
+    .container{
+        width: 80%;
+        margin: 50px auto;
+        padding: 10px;
+        background-color: #fff;
+    }
+
+    header{
+        width: 100%;
+        grid-area: header;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+    }
+
+    #sideSatu{
+        width: 20%;
+        padding: 10px;
+        background-color: yellow;
+        text-align: center;
+    }
+
+    #sideDua{
+        width: 20%;
+        padding: 10px;
+        background-color: yellow;
+        text-align: center;
+    }
+
+    main{
+        width: 60%;
+        padding: 10px;
+        background-color: orange;
+        text-align: center;
+    }
+
+    footer{
+        width: 100%;
+        grid-area: footer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+    }
+
+    .flexContent{
+        display: flex;
+    }
+
+    #footer{
+
+    }
