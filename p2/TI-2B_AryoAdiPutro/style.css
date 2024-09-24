@@ -9,6 +9,20 @@ body {
     align-items: flex-end;
 }
 
+.container{
+    box-sizing: border-box;
+    padding: 5px;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "nav main"
+    "footer footer"
+    ;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1.3fr;
+}
+
 h1{
     text-align: center;
 }
@@ -21,7 +35,6 @@ h1{
 }
 
 .table{
-    display: flex;
     padding: 5px;
     background: rgb(167, 36, 255);
     color: white;
