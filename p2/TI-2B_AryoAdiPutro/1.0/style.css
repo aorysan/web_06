@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin-left: 10px;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    align-items: flex-end;
+}
+
+.container{
+    box-sizing: border-box;
+    padding: 5px;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "nav main"
+    "footer footer"
+    ;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1.3fr;
+}
+
+h1{
+    text-align: center;
+}
+
+.desc1{
+    width: 50%;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.5) 0.1em 0.1em 0.2em;
+}
+
+.table{
+    padding: 5px;
+    background: rgb(167, 36, 255);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.content{
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+    border: 2px solid #6c7ae0;
+    border-radius: 10px;
+    overflow: hidden;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.barisPertama{
+    font-weight: bold;
+}
+
+.button{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#nextButton{
+    background-color: #6c7ae0;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+#nextButton:hover {
+    background-color: #5a67d8;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.image{
+    display: block;
+}
+
+#firstImg{
+    float: right;
+    width: 40%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#secondImg{
+    float: right;
+    width: 40%;
+    margin-right: 20px;
+}
