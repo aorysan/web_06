@@ -1,7 +1,7 @@
 <?php
 $username = 'root';
 $password = '';
-$database = 'dasar_web';
+$database = 'dasarWeb';
 
 try {
     $db = new mysqli('localhost', $username, $password, $database);
